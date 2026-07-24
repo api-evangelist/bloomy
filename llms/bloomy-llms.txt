@@ -1,0 +1,19 @@
+# Bloomy
+
+> Bloomy (bloomylearning.com) is an AI-powered adaptive learning platform for K-12 students, backed by Y Combinator (Summer 2026). It diagnoses knowledge gaps and delivers personalized, standards-aligned paths across English Language Arts, Math, and Writing with Socratic AI tutoring and mastery-based practice. As of this profile Bloomy publishes no public API, developer portal, SDKs, or developer documentation.
+
+## Company
+- [Website](https://bloomylearning.com/): Product overview for schools and families
+- [For families](https://bloomylearning.com/families): Family-facing offering and subscriptions
+- [Sign in](https://www.bloomylearning.com/login): Existing-account login
+- [App](https://app.bloomylearning.com): Application entry point
+
+## Legal
+- [Terms of Service](https://bloomylearning.com/terms)
+- [Privacy Policy](https://bloomylearning.com/privacy)
+
+## Contact
+- Email: hello@bloomylearning.com
+
+## Notes
+- No public API, OpenAPI, SDK, MCP server, or developer documentation is published at this time.

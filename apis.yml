@@ -1,7 +1,31 @@
 aid: bloomy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomy.png
 name: Bloomy
-description: Bloomy is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Bloomy (bloomylearning.com) is an AI-powered adaptive learning platform for
+  K-12 students, founded by Alex Southmayd and backed by Y Combinator (Summer
+  2026 batch). The product diagnoses each student's knowledge gaps, builds a
+  personalized standards-aligned learning path across English Language Arts,
+  Math, and Writing, and delivers Socratic AI tutoring plus mastery-based
+  practice, requiring 90%+ mastery before a student advances. It integrates
+  third-party diagnostic/assessment data (i-Ready, NWEA MAP) and provides a
+  real-time teacher dashboard. Bloomy serves traditional districts, charter
+  schools, homeschools, and microschools, and sells to families via monthly or
+  annual subscriptions (with ESA/EFA fund eligibility in some states). As of
+  this profile Bloomy publishes no public API, developer portal, SDKs, or
+  developer documentation; this record captures its verified public identity
+  and legal/account surface only.
 url: https://raw.githubusercontent.com/api-evangelist/bloomy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Education
+- EdTech
+- Artificial Intelligence
+- Adaptive Learning
+- K-12
+- eLearning
+- Personalization
+- AI Tutor
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/bloomy-domain-security.yml
+- type: Website
+  url: https://bloomylearning.com/
+- type: Login
+  url: https://www.bloomylearning.com/login
+- type: SignUp
+  url: https://app.bloomylearning.com
+- type: TermsOfService
+  url: https://bloomylearning.com/terms
+- type: PrivacyPolicy
+  url: https://bloomylearning.com/privacy
+- type: Support
+  url: mailto:hello@bloomylearning.com
+- type: LLMsTxt
+  url: llms/bloomy-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
